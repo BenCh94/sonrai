@@ -5,6 +5,6 @@
     = stylesheet_link_tag    'default/application', media: 'all', 'data-turbolinks-track' => true
     = csrf_meta_tags
   %body
+    = render 'default/shared/navigation'
     .container
-      = render 'default/shared/navigation'
       = yield

@@ -1,14 +1,9 @@
 - content_for :head do
-    = stylesheet_link_tag 'landing' 
+    = stylesheet_link_tag 'application' 
 
 = render partial: 'layouts/navigation/nav_bar'
 
 .container-fluid
-    .d-flex.justify-content-between
-        %h2
-            Hello
-        %h2
-            World
-    .d-flex.justify-content-center
-        .clickMe.btn
-            Click Me
+    .d-flex.justify-content-center.flex-column.align-items-center.text-light
+        %h2 Sonrai
+        %h5 Data Driven Content

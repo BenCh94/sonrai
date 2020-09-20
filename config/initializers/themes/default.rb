@@ -23,6 +23,12 @@
     description:  'A simple page',
     usage:        'Use for your content',
     page_parts:   ['text', 'content']
+  }, {
+    name: 'blog',
+    title:        'Blog',
+    description:  'A blog post',
+    usage:        'For blog posts',
+    page_parts:   ['text', 'content']
   }]
 
   theme.custom_pages = [{
